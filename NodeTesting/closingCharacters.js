@@ -1,4 +1,4 @@
-import Stack from "../pw_node-introduction/stack.js"
+import Stack from "./stack.js"
 
 // const with the correct text to validate the symbols
 const correctTestText = "{{[({})]}}"

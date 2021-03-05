@@ -1,0 +1,19 @@
+{
+  "name": "pw_node-introduction",
+  "version": "1.0.0",
+  "description": "Demo Project on Node JS for Web Programming",
+  "main": "../SimpleServer/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis-marro/PW_NodeIntroduction.git"
+  },
+  "author": "Luis Marroquin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luis-marro/PW_NodeIntroduction/issues"
+  },
+  "homepage": "https://github.com/luis-marro/PW_NodeIntroduction#readme"
+}
