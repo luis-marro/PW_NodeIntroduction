@@ -9,9 +9,9 @@ http.createServer(function (req, res) {
     const currentUrl = new URL(req.url, baseUrl);
     const pathName = currentUrl.pathname;
     const searchParams = currentUrl.searchParams;
-    if (method === 'GET' && pathName > '/hello') {
+    if (method === 'GET' && pathName === '/hello' && searchParams.has("name")) {
         res.writeHead(200, {'Content-Type':'application/json'});
-        let name = searchParams.name;
+        let name = searchParams.get("name");
         let responseName = JSON.stringify({
             name : name,
         })
